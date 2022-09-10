@@ -1,0 +1,45 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  font-weight: bold;
+  background: #fa88fa;
+  border: 6px solid purple;
+}
+.parent {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  border: 6px solid peru;
+}
+.child {
+  position: absolute;
+  background: red;
+  height: 150px;
+  width: 150px;
+}
+
+.child-1 {
+  top: 0;
+  right: 0;
+}
+
+.child-2 {
+  right: 50px;
+  bottom: 50px;
+}
+
+.child-3 {
+  left: 0;
+  bottom: 0;
+}
+
+.fixed {
+  position: fixed;
+  border: 5px solid purple;
+  background-color: #fa88fa;
+  padding: 10px;
+  top: 300px;
+  left: 300px;
+  width: 800px;
+}
