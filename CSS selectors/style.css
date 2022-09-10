@@ -1,0 +1,59 @@
+/* //Univeral selector applys on all */
+* {
+  background-color: aquamarine;
+}
+
+/* Type selector apply on only that type of selector */
+p {
+  font-size: large;
+  color: black;
+  padding: 10px;
+  display: block;
+  font-weight: 600;
+  background-color: bisque;
+}
+
+h1 {
+  color: red;
+  font-size: 2rem;
+  padding: 15px;
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Class selector apply on that particular class */
+.common {
+  font-size: 24px;
+  color: red;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+/* Id selector apply on that particular id */
+
+#one {
+  border: 3px solid red;
+  padding: 10px;
+}
+#two {
+  border: 2px solid blue;
+  padding: 15px;
+}
+#three {
+  border: 2px solid yellow;
+  padding: 20px;
+}
+#four {
+  border: 2px solid orange;
+  padding: 25px;
+}
+
+#five {
+  border: 2px solid green;
+  padding: 30px;
+}
